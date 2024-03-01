@@ -42,7 +42,6 @@ namespace Interfaces
     {
         public void ProcessModel(Car car)
         {
-            
             Console.WriteLine($"Procesando un carro: {car.Manufacturer} {car.Model}");
         }
     }
